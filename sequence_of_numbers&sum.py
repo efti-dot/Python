@@ -1,5 +1,4 @@
 a = []
-
 while True:
     a = input().split(" ")
     M, N = int(a[0]), int(a[1])
@@ -11,6 +10,5 @@ while True:
         sum = 0
         for i in range (M, N+1):
             sum = sum + i
-            print(i)
+            print(i, end=" ")
         print(f"Sum={sum}")
-
