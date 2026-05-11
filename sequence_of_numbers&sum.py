@@ -1,4 +1,3 @@
-a = []
 while True:
     a = input().split(" ")
     M, N = int(a[0]), int(a[1])
