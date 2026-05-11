@@ -1,7 +1,7 @@
 while True:
     a = input().split(" ")
     M, N = int(a[0]), int(a[1])
-    if M == 0 or N == 0:
+    if M <= 0 or N <= 0:
         break
     else:
         if M>N:
