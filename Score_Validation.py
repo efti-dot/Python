@@ -1,9 +1,8 @@
-a = []
-while True:
-    j = 0
+vaild_count = 0
+while vaild_count<2:
     i = input()
     if 0<i or i>10:
         print("nota invalida")
     else:
-        a[j] = i
-        j= j+1
+        vaild_count += 1
+        
