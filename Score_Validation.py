@@ -4,7 +4,6 @@ while vaild_count<2:
     i = float(input())
     if i<0 or i>10:
         print("nota invalida")
-        print(i)
     else:
         vaild_count += 1
         score.append(i)
