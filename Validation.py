@@ -8,4 +8,4 @@ while X==2:
     else:
         print("nota invalida")
 
-print(f"media =" {((int(l[0])+int(l[1]))/2)})
+print(f"media = {((int(l[0])+int(l[1]))/2)}")
