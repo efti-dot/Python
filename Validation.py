@@ -1,12 +1,17 @@
 count = 0
 l = []
-while count<2:
+while True:
     a = input()
     if a>0 or a<10:
         count += 1
-        if count == 2:
-            X = int(input())
         l.append(a)
+        if count==2:
+            print("novo calculo (1-sim 2-nao)")
+            X = int(input())
+            if X == 1:
+                continue
+            else:
+                break
     else:
         print("nota invalida")
 
