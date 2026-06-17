@@ -1,7 +1,7 @@
 count = 0
 l = []
 while True:
-    a = float(input())
+    a = int(input())
     if a>=0 or a<=10:
         count += 1
         l.append(a)
