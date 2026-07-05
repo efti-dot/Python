@@ -7,14 +7,15 @@ while True:
         l.append(a)
         if count==2:
             print(f"media = {((int(l[0])+int(l[1]))/2)}")
-            print("novo calculo (1-sim 2-nao)")
-            X = int(input())
-            if X == 1:
-                count = 0
-                l = []
-                continue
-            elif X == 2:
-                break
+            while True:
+                print("novo calculo (1-sim 2-nao)")
+                X = int(input())
+                if X == 1:
+                    count = 0
+                    l = []
+                    break
+                elif X == 2:
+                    exit()
     else:
         print("nota invalida")
 
