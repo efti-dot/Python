@@ -2,7 +2,7 @@ count = 0
 l = []
 while True:
     a = int(input())
-    if a>=0 or a<=10:
+    if 0 <= a <= 10:
         count += 1
         l.append(a)
         if count==2:
