@@ -10,6 +10,7 @@ while True:
             print("novo calculo (1-sim 2-nao)")
             X = int(input())
             if X == 1:
+                count = 0
                 continue
             elif X == 2:
                 break
