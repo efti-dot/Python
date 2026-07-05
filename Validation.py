@@ -11,6 +11,7 @@ while True:
             X = int(input())
             if X == 1:
                 count = 0
+                l = []
                 continue
             elif X == 2:
                 break
