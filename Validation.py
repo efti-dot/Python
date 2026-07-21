@@ -10,6 +10,7 @@ while True:
             while True:
                 print("novo calculo (1-sim 2-nao)")
                 print("You must have to choose one!")
+                print("okay?")
                 X = int(input())
                 if X == 1:
                     count = 0
