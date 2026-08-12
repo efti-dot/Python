@@ -18,4 +18,5 @@ while True:
                     exit()
     else:
         print("nota invalida")
+        print("Thank you")
 
