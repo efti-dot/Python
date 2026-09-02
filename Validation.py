@@ -17,5 +17,5 @@ while True:
                 elif X == 2:
                     exit()
     else:
-        print("nota invalida")
+        print("nota invalida!")
 
