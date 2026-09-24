@@ -9,5 +9,5 @@ for i in range(1, N+1):
         Out += 1
 
 print(f"{In} in")
-print(f"{Out} out")
+print(f"{Out} out.")
 
