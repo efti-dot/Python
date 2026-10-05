@@ -10,4 +10,4 @@ while True:
     elif x<0 and y<0:
         print("terceiro")
     else:
-        print("segundo")
+        print("segundo.")
